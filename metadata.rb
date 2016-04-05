@@ -1,0 +1,9 @@
+name             'stackstorm'
+maintainer       'Fabio Brito'
+maintainer_email 'psychopenguin@gmail.com'
+license          'All rights reserved'
+description      'Installs/Configures stackstorm'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          '0.1.0'
+
+depends "yum-epel"

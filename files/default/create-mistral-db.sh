@@ -1,0 +1,4 @@
+cat << EHD | psql
+CREATE ROLE mistral WITH CREATEDB LOGIN ENCRYPTED PASSWORD 'StackStorm';
+CREATE DATABASE mistral OWNER mistral;
+EHD

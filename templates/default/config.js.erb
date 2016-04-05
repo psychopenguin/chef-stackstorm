@@ -1,0 +1,9 @@
+'use strict';
+angular.module('main')
+  .constant('st2Config', {
+   hosts: [{
+      name: 'StackStorm',
+      url: 'https://:<%= node['stackstorm']['webport'] %>/api',
+      auth: 'https://:<%= node['stackstorm']['webport'] %>/auth'
+    }]
+  });
